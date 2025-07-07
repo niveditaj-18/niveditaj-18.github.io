@@ -9,9 +9,12 @@
 <style>
   body {
     font-family: 'Lora', serif;
+    background-color: #f5f0e1;
+    color: #5e4632;
+    margin: 0;
   }
   .navbar {
-    background-color: #d8c3a5; /* nude brown */
+    background-color: #d8c3a5;
   }
   .navbar .nav-link {
     color: #5e4632 !important;
@@ -22,20 +25,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    background-color: #f5f0e1;
-    color: #5e4632;
-    text-align: center;
+    position: relative;
     padding: 20px;
   }
-  .section-title {
+  .content {
+    text-align: center;
+  }
+  .name {
     font-size: 3rem;
     font-weight: bold;
-    margin-bottom: 20px;
   }
-  .section p {
+  .title {
+    text-align: left;
+    font-size: 1.25rem;
     max-width: 800px;
-    margin: 0 auto 10px;
+    margin: 20px auto 0 auto;
+  }
+  .photo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .macbook {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 120px;
+    opacity: 0.8;
   }
 </style>
 </head>
@@ -58,13 +76,16 @@
 
 <!-- About Section -->
 <section class="section">
-  <h1 class="section-title">Nivedita J</h1>
-  <p>
-    Data Engineer and Analyst with over 5 years of experience delivering robust data solutions across analytics, cloud infrastructure, and business reporting environments. Proven expertise in building scalable ETL pipelines, optimizing cloud architectures on AWS, and translating complex datasets into high-impact visual reporting. Adept at supporting cross-functional teams through data reliability, process automation, and rigorous performance tracking.
-  </p>
-  <p>
-    📧 <a href="mailto:niveditaj1809@gmail.com">niveditaj1809@gmail.com</a> | 📞 <a href="tel:5715279038">571-527-9038</a> | 🌐 <a href="https://www.linkedin.com/in/nivedita-j-5853a7103/">LinkedIn</a>
-  </p>
+  <!-- Photo -->
+  <img src="JPEG image-82309E4531C4-1.jpeg" alt="Nivedita J" class="photo">
+  <div class="content">
+    <div class="name">Nivedita J</div>
+    <div class="title">
+      Data Engineer & Analyst with a passion for building AI-powered applications using cutting-edge tools like LLMs, cloud platforms, and generative AI technologies. I enjoy solving complex problems, automating workflows, and crafting intelligent systems that enhance decision-making and creativity.
+    </div>
+  </div>
+  <!-- Macbook Icon -->
+  <img src="macbook.png" alt="MacBook" class="macbook">
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
