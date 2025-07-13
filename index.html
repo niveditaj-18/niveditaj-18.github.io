@@ -11,7 +11,6 @@
     font-family: 'Lora', serif;
     background-color: #f5f0e1;
     color: #5e4632;
-    margin: 0;
   }
   .navbar {
     background-color: #d8c3a5;
@@ -21,32 +20,15 @@
     font-weight: bold;
   }
   .section {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 60px 30px;
     position: relative;
-    padding: 20px;
-  }
-  .content {
-    text-align: center;
-    max-width: 800px;
-  }
-  .name {
-    font-size: 3.5rem;
-    font-weight: bold;
-  }
-  .title {
-    text-align: left;
-    font-size: 1.25rem;
-    margin: 30px auto 0 auto;
   }
   .photo {
     position: absolute;
-    top: 30px;
+    top: 60px;
     left: 30px;
-    width: 300px;
-    height: 300px;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
     border-radius: 10px;
     border: 3px solid #5e4632;
@@ -55,8 +37,26 @@
     position: absolute;
     bottom: 30px;
     right: 30px;
-    width: 300px;
-    opacity: 0.9;
+    width: 200px;
+    opacity: 0.8;
+  }
+  .content {
+    margin-left: 230px;
+    max-width: 800px;
+  }
+  .name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .headline {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  .section-title {
+    font-weight: bold;
+    margin-top: 20px;
   }
 </style>
 </head>
@@ -79,15 +79,40 @@
 
 <!-- About Section -->
 <section class="section">
-  <!-- Photo -->
   <img src="b4000602-0e7d-47fe-acef-985ab7bcde6b.JPG" alt="Nivedita J" class="photo">
+
   <div class="content">
     <div class="name">Nivedita J</div>
-    <div class="title">
-      Data Engineer & Analyst with expertise in building scalable ETL pipelines, leveraging AWS cloud platforms, and writing efficient Python and SQL for robust analytics solutions. Passionate about developing intelligent, AI-powered applications with LLMs, automation, and generative technologies to solve complex problems and drive impactful decision-making.
-    </div>
+    <div class="headline">Data Engineer & Analyst | ETL Pipelines | AWS | Python | AI Applications</div>
+
+    <p>
+      I am a results-driven Data Engineer & Analyst with expertise in designing scalable ETL pipelines, automating workflows, and crafting intelligent AI-driven applications. Skilled at leveraging AWS cloud platforms, Python, SQL, and generative AI tools, I deliver robust analytics solutions to solve complex business challenges.
+    </p>
+
+    <div class="section-title">Core Competencies</div>
+    <ul>
+      <li>ETL Development & Data Pipeline Automation</li>
+      <li>Cloud Platforms: AWS, Azure, GCP</li>
+      <li>Data Visualization: Tableau, Power BI, QuickSight</li>
+      <li>AI & NLP Applications with LLMs & Whisper</li>
+      <li>Statistical Analysis & Predictive Modeling</li>
+    </ul>
+
+    <div class="section-title">Key Achievements</div>
+    <ul>
+      <li>Designed and deployed an AI-powered case study generator, integrating multiple data modalities with LLMs.</li>
+      <li>Optimized AWS infrastructure & pipelines, reducing costs and improving performance by 35%.</li>
+      <li>Delivered actionable dashboards & KPIs, driving strategic business decisions across teams.</li>
+    </ul>
+
+    <div class="section-title">Contact</div>
+    <p>
+      📧 <a href="mailto:niveditaj1809@gmail.com">niveditaj1809@gmail.com</a> |
+      📞 <a href="tel:5715279038">571-527-9038</a> |
+      🌐 <a href="https://www.linkedin.com/in/nivedita-j-5853a7103/">LinkedIn</a>
+    </p>
   </div>
-  <!-- Macbook Icon -->
+
   <img src="macbook.png" alt="MacBook" class="macbook">
 </section>
 
