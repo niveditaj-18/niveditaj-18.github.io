@@ -20,26 +20,17 @@
     font-weight: bold;
   }
   .section {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f5f0e1;
-    padding: 60px 20px;
-  }
-  .content {
-    max-width: 800px;
+    padding: 60px 30px;
   }
   .job-title {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: bold;
   }
   .job-dates {
-    float: right;
     font-size: 0.95rem;
     color: #7c6a58;
   }
-  ul {
+  .job-description {
     margin-bottom: 30px;
   }
 </style>
@@ -62,40 +53,64 @@
 </nav>
 
 <section class="section">
-  <div class="content">
-    <h2 class="text-center mb-5">Professional Experience</h2>
+  <h2 class="mb-4">Professional Experience</h2>
 
-    <div class="mb-4">
-      <div class="job-title">
-        Data Engineer — Blue Horse Digital
-        <span class="job-dates">Apr 2025 – Present</span>
-      </div>
-      <ul>
-        <li>Developed AI-driven case study generator using Python, Whisper, and Streamlit.</li>
-        <li>Integrated PDF parsing, audio transcription, and structured output generation with LLM APIs.</li>
-      </ul>
+  <div class="job-description">
+    <div class="job-title">
+      Data Engineer — Blue Horse Digital
     </div>
-
-    <div class="mb-4">
-      <div class="job-title">
-        Data Analyst — Bright Mind Enrichment
-        <span class="job-dates">Feb 2025 – May 2025</span>
-      </div>
-      <ul>
-        <li>Automated data workflows, enhanced reporting with SQL, R, and EDA insights.</li>
-      </ul>
+    <div class="job-dates">
+      Apr 2025 – Present
     </div>
-
-    <div class="mb-4">
-      <div class="job-title">
-        Data Analyst — Accenture
-        <span class="job-dates">Feb 2018 – Jun 2023</span>
-      </div>
-      <ul>
-        <li>Built and optimized ETL pipelines and AWS cloud infrastructure, reducing costs and improving performance.</li>
-      </ul>
-    </div>
+    <ul>
+      <li>Developed a Python-based AI-driven case study generator integrating Whisper and Streamlit to automate content generation for business learning.</li>
+      <li>Implemented robust PDF parsing and audio transcription workflows to create structured, high-quality outputs using LLM APIs.</li>
+      <li>Collaborated with cross-functional teams to refine user experience, improve automation pipelines, and deploy the application to cloud environments.</li>
+    </ul>
   </div>
+
+  <div class="job-description">
+    <div class="job-title">
+      Data Analyst — Bright Mind Enrichment
+    </div>
+    <div class="job-dates">
+      Feb 2025 – May 2025
+    </div>
+    <ul>
+      <li>Automated complex data workflows, streamlining data collection and reporting processes for outreach programs.</li>
+      <li>Created insightful dashboards and KPIs to evaluate the effectiveness of campaigns, driving data-informed decisions.</li>
+      <li>Performed exploratory data analysis and presented actionable findings to improve operational strategies.</li>
+    </ul>
+  </div>
+
+  <div class="job-description">
+    <div class="job-title">
+      Data Analyst — Accenture
+    </div>
+    <div class="job-dates">
+      Feb 2018 – Jun 2023
+    </div>
+    <ul>
+      <li>Built and optimized ETL pipelines to ensure seamless data extraction, transformation, and loading into AWS cloud platforms.</li>
+      <li>Developed and maintained business intelligence dashboards, enabling stakeholders to monitor KPIs and performance metrics in real time.</li>
+      <li>Reduced cloud infrastructure costs by improving query performance, storage efficiency, and automation of routine tasks.</li>
+    </ul>
+  </div>
+
+  <div class="job-description">
+    <div class="job-title">
+      Business Development Associate — Byju’s
+    </div>
+    <div class="job-dates">
+      Dec 2016 – Dec 2017
+    </div>
+    <ul>
+      <li>Analyzed customer data to identify opportunities for retention, upselling, and cross-selling.</li>
+      <li>Engaged with prospective clients, addressing their pain points through data-backed insights and personalized solutions.</li>
+      <li>Contributed to achieving monthly and quarterly revenue targets through proactive business development efforts.</li>
+    </ul>
+  </div>
+
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
